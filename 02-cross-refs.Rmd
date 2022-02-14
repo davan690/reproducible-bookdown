@@ -33,8 +33,6 @@ You need two things: a BibTeX file that contains all the citations you use in yo
 * The RStudio Markdown website: http://rmarkdown.rstudio.com/
 * The bookdown website: https://bookdown.org/yihui/bookdown/
 
-
-
 # Documenting and managing dependencies
 
 Reproducibility is also about making sure someone else can re-use your code to obtain the same results as yours. Understanding why your analysis may not lead to the same results on a different computer can be useful to determine how careful you need to be in documenting your setup.
