@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title> 3 Cross-references | Reproducible guide</title>
+  <meta name="description" content="Over the past few years there has been a hige development of reproducible research tools using R." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content=" 3 Cross-references | Reproducible guide" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Over the past few years there has been a hige development of reproducible research tools using R." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content=" 3 Cross-references | Reproducible guide" />
+  
+  <meta name="twitter:description" content="Over the past few years there has been a hige development of reproducible research tools using R." />
+  
+
+<meta name="author" content="Anthony Davidson" />
+
+
+<meta name="date" content="2022-02-14" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="introduction.html"/>
+<link rel="next" href="documenting-and-managing-dependencies.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Reproducibility guide: DRAFT 2022</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Overview</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#working-with-this-resource"><i class="fa fa-check"></i><b>1.1</b> Working with this resource</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#packages-and-libraries-needed"><i class="fa fa-check"></i><b>1.2</b> Packages and libraries needed:</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>2</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="introduction.html"><a href="introduction.html#whats-a-reproducible-report"><i class="fa fa-check"></i><b>2.1</b> What’s a reproducible report?</a></li>
+<li class="chapter" data-level="2.2" data-path="introduction.html"><a href="introduction.html#why-a-reproducible-report"><i class="fa fa-check"></i><b>2.2</b> Why a reproducible report?</a></li>
+<li class="chapter" data-level="2.3" data-path="introduction.html"><a href="introduction.html#bes-guidelines"><i class="fa fa-check"></i><b>2.3</b> BES guidelines</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="cross.html"><a href="cross.html"><i class="fa fa-check"></i><b>3</b> Cross-references</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="cross.html"><a href="cross.html#chapters-and-sub-chapters"><i class="fa fa-check"></i><b>3.1</b> Chapters and sub-chapters</a></li>
+<li class="chapter" data-level="3.2" data-path="cross.html"><a href="cross.html#captioned-figures-and-tables"><i class="fa fa-check"></i><b>3.2</b> Captioned figures and tables</a></li>
+<li class="chapter" data-level="3.3" data-path="cross.html"><a href="cross.html#how-to-do-a-report-using-rmarkdown"><i class="fa fa-check"></i><b>3.3</b> How to do a report using RMarkdown?</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="cross.html"><a href="cross.html#the-yaml-header"><i class="fa fa-check"></i><b>3.3.1</b> the YAML header</a></li>
+<li class="chapter" data-level="3.3.2" data-path="cross.html"><a href="cross.html#code-chunks"><i class="fa fa-check"></i><b>3.3.2</b> Code chunks</a></li>
+<li class="chapter" data-level="3.3.3" data-path="cross.html"><a href="cross.html#how-to-deal-with-figures"><i class="fa fa-check"></i><b>3.3.3</b> How to deal with figures?</a></li>
+<li class="chapter" data-level="3.3.4" data-path="cross.html"><a href="cross.html#how-to-deal-with-tables"><i class="fa fa-check"></i><b>3.3.4</b> How to deal with tables?</a></li>
+<li class="chapter" data-level="3.3.5" data-path="cross.html"><a href="cross.html#how-to-deal-with-citations"><i class="fa fa-check"></i><b>3.3.5</b> How to deal with citations?</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="cross.html"><a href="cross.html#where-can-i-find-more-information"><i class="fa fa-check"></i><b>3.4</b> Where can I find more information?</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="documenting-and-managing-dependencies.html"><a href="documenting-and-managing-dependencies.html"><i class="fa fa-check"></i><b>4</b> Documenting and managing dependencies</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="documenting-and-managing-dependencies.html"><a href="documenting-and-managing-dependencies.html#show-the-packages-you-used"><i class="fa fa-check"></i><b>4.1</b> Show the packages you used</a></li>
+<li class="chapter" data-level="4.2" data-path="documenting-and-managing-dependencies.html"><a href="documenting-and-managing-dependencies.html#use-packages-that-help-recreate-your-setup"><i class="fa fa-check"></i><b>4.2</b> Use packages that help recreate your setup</a></li>
+<li class="chapter" data-level="4.3" data-path="documenting-and-managing-dependencies.html"><a href="documenting-and-managing-dependencies.html#use-containers-to-share-your-setup"><i class="fa fa-check"></i><b>4.3</b> Use containers to share your setup</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>5</b> Methods</a></li>
+<li class="chapter" data-level="6" data-path="footnotes-and-citations.html"><a href="footnotes-and-citations.html"><i class="fa fa-check"></i><b>6</b> Footnotes and citations</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="footnotes-and-citations.html"><a href="footnotes-and-citations.html#footnotes"><i class="fa fa-check"></i><b>6.1</b> Footnotes</a></li>
+<li class="chapter" data-level="6.2" data-path="footnotes-and-citations.html"><a href="footnotes-and-citations.html#citations"><i class="fa fa-check"></i><b>6.2</b> Citations</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="blocks.html"><a href="blocks.html"><i class="fa fa-check"></i><b>7</b> Blocks</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="blocks.html"><a href="blocks.html#equations"><i class="fa fa-check"></i><b>7.1</b> Equations</a></li>
+<li class="chapter" data-level="7.2" data-path="blocks.html"><a href="blocks.html#theorems-and-proofs"><i class="fa fa-check"></i><b>7.2</b> Theorems and proofs</a></li>
+<li class="chapter" data-level="7.3" data-path="blocks.html"><a href="blocks.html#callout-blocks"><i class="fa fa-check"></i><b>7.3</b> Callout blocks</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="sharing-your-book.html"><a href="sharing-your-book.html"><i class="fa fa-check"></i><b>8</b> Sharing your book</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="sharing-your-book.html"><a href="sharing-your-book.html#publishing"><i class="fa fa-check"></i><b>8.1</b> Publishing</a></li>
+<li class="chapter" data-level="8.2" data-path="sharing-your-book.html"><a href="sharing-your-book.html#pages"><i class="fa fa-check"></i><b>8.2</b> 404 pages</a></li>
+<li class="chapter" data-level="8.3" data-path="sharing-your-book.html"><a href="sharing-your-book.html#metadata-for-sharing"><i class="fa fa-check"></i><b>8.3</b> Metadata for sharing</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="9" data-path="overview-1.html"><a href="overview-1.html"><i class="fa fa-check"></i><b>9</b> Overview</a></li>
+<li class="chapter" data-level="10" data-path="journals.html"><a href="journals.html"><i class="fa fa-check"></i><b>10</b> Journals</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="journals.html"><a href="journals.html#coding-groups"><i class="fa fa-check"></i><b>10.1</b> Coding groups</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="resources.html"><a href="resources.html"><i class="fa fa-check"></i><b>11</b> Resources</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="resources.html"><a href="resources.html#rstudio-tools-and-packages"><i class="fa fa-check"></i><b>11.1</b> RStudio tools and packages</a></li>
+<li class="chapter" data-level="11.2" data-path="resources.html"><a href="resources.html#scientific-publications"><i class="fa fa-check"></i><b>11.2</b> Scientific publications</a></li>
+<li class="chapter" data-level="11.3" data-path="resources.html"><a href="resources.html#workflow-options"><i class="fa fa-check"></i><b>11.3</b> Workflow options</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="files-within-this-repository.html"><a href="files-within-this-repository.html"><i class="fa fa-check"></i><b>12</b> Files within this repository</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="files-within-this-repository.html"><a href="files-within-this-repository.html#checklist"><i class="fa fa-check"></i><b>12.1</b> Checklist</a>
+<ul>
+<li class="chapter" data-level="12.1.1" data-path="files-within-this-repository.html"><a href="files-within-this-repository.html#documentation"><i class="fa fa-check"></i><b>12.1.1</b> Documentation</a></li>
+<li class="chapter" data-level="12.1.2" data-path="files-within-this-repository.html"><a href="files-within-this-repository.html#organization"><i class="fa fa-check"></i><b>12.1.2</b> Organization</a></li>
+<li class="chapter" data-level="12.1.3" data-path="files-within-this-repository.html"><a href="files-within-this-repository.html#automation"><i class="fa fa-check"></i><b>12.1.3</b> Automation</a></li>
+<li class="chapter" data-level="12.1.4" data-path="files-within-this-repository.html"><a href="files-within-this-repository.html#publication"><i class="fa fa-check"></i><b>12.1.4</b> Publication</a></li>
+</ul></li>
+<li class="chapter" data-level="12.2" data-path="files-within-this-repository.html"><a href="files-within-this-repository.html#coding-groups-1"><i class="fa fa-check"></i><b>12.2</b> Coding groups</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="software-options.html"><a href="software-options.html"><i class="fa fa-check"></i><b>13</b> Software options</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="software-options.html"><a href="software-options.html#file-building"><i class="fa fa-check"></i><b>13.1</b> File building</a>
+<ul>
+<li class="chapter" data-level="13.1.1" data-path="software-options.html"><a href="software-options.html#packrat"><i class="fa fa-check"></i><b>13.1.1</b> packrat</a></li>
+<li class="chapter" data-level="13.1.2" data-path="software-options.html"><a href="software-options.html#projecttemplate"><i class="fa fa-check"></i><b>13.1.2</b> ProjectTemplate</a></li>
+</ul></li>
+<li class="chapter" data-level="13.2" data-path="software-options.html"><a href="software-options.html#packages"><i class="fa fa-check"></i><b>13.2</b> Packages</a>
+<ul>
+<li class="chapter" data-level="13.2.1" data-path="software-options.html"><a href="software-options.html#r"><i class="fa fa-check"></i><b>13.2.1</b> R</a></li>
+</ul></li>
+<li class="chapter" data-level="13.3" data-path="software-options.html"><a href="software-options.html#version-control"><i class="fa fa-check"></i><b>13.3</b> Version control</a></li>
+<li class="chapter" data-level="13.4" data-path="software-options.html"><a href="software-options.html#markdown"><i class="fa fa-check"></i><b>13.4</b> Markdown</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Reproducible guide</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="cross" class="section level1" number="3">
+<h1><span class="header-section-number"> 3</span> Cross-references</h1>
+<p>Cross-references make it easier for your readers to find and link to elements in your book.</p>
+<div id="chapters-and-sub-chapters" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> Chapters and sub-chapters</h2>
+<p>There are two steps to cross-reference any heading:</p>
+<ol style="list-style-type: decimal">
+<li>Label the heading: <code># Hello world {#nice-label}</code>.
+<ul>
+<li>Leave the label off if you like the automated heading generated based on your heading title: for example, <code># Hello world</code> = <code># Hello world {#hello-world}</code>.</li>
+<li>To label an un-numbered heading, use: <code># Hello world {-#nice-label}</code> or <code>{# Hello world .unnumbered}</code>.</li>
+</ul></li>
+<li>Next, reference the labeled heading anywhere in the text using <code>\@ref(nice-label)</code>; for example, please see Chapter <a href="cross.html#cross">3</a>.
+<ul>
+<li>If you prefer text as the link instead of a numbered reference use: <a href="cross.html#cross">any text you want can go here</a>.</li>
+</ul></li>
+</ol>
+</div>
+<div id="captioned-figures-and-tables" class="section level2" number="3.2">
+<h2><span class="header-section-number">3.2</span> Captioned figures and tables</h2>
+<p>Figures and tables <em>with captions</em> can also be cross-referenced from elsewhere in your book using <code>\@ref(fig:chunk-label)</code> and <code>\@ref(tab:chunk-label)</code>, respectively.</p>
+<p>See Figure <a href="cross.html#fig:nice-fig">3.1</a>.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:nice-fig"></span>
+<img src="figures/nice-fig-1.png" alt="Plot with connected points showing that vapor pressure of mercury increases exponentially as temperature increases." width="80%" />
+<p class="caption">
+Figure 3.1: Here is a nice figure!
+</p>
+</div>
+<p>Don’t miss Table <a href="cross.html#tab:nice-tab">3.1</a>.</p>
+<table>
+<caption><span id="tab:nice-tab">Table 3.1: </span>Here is a nice table!</caption>
+<thead>
+<tr class="header">
+<th align="right">temperature</th>
+<th align="right">pressure</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">0</td>
+<td align="right">0.0002</td>
+</tr>
+<tr class="even">
+<td align="right">20</td>
+<td align="right">0.0012</td>
+</tr>
+<tr class="odd">
+<td align="right">40</td>
+<td align="right">0.0060</td>
+</tr>
+<tr class="even">
+<td align="right">60</td>
+<td align="right">0.0300</td>
+</tr>
+<tr class="odd">
+<td align="right">80</td>
+<td align="right">0.0900</td>
+</tr>
+<tr class="even">
+<td align="right">100</td>
+<td align="right">0.2700</td>
+</tr>
+<tr class="odd">
+<td align="right">120</td>
+<td align="right">0.7500</td>
+</tr>
+<tr class="even">
+<td align="right">140</td>
+<td align="right">1.8500</td>
+</tr>
+<tr class="odd">
+<td align="right">160</td>
+<td align="right">4.2000</td>
+</tr>
+<tr class="even">
+<td align="right">180</td>
+<td align="right">8.8000</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="how-to-do-a-report-using-rmarkdown" class="section level2" number="3.3">
+<h2><span class="header-section-number">3.3</span> How to do a report using RMarkdown?</h2>
+<p>Programming languages typically used by scientistics for data analysis have libraries or packages that can be used to generate reproducible reports. The most popular ones are Jupyter Notebooks for scientists who primarily use python and RMarkdown for those who use R. While they both share many commonalities, their implementation and everyday applications differ. Here, we focus on RMarkdown.</p>
+<p>RMarkdown is a file format (typically saved with the <code>.Rmd</code> extension) that can contain: a YAML header (see next section), text, code chunks, and inline code. The <code>.rmarkdown</code> package converts this file into a report most commonly into HTML or PDF.</p>
+<p>The <code>.rmarkdown</code> package automates a multi-step process (Fig. xx). Under the hood, it calls the <code>.knitr</code> package that converts the Rmd file into a markdown file. In the process, <code>.knitr</code> takes all the code chunks and the inline code, run them through R (or other programs), capture their output, and incorporates them in the report. Afterwards, <code>.rmarkdown</code> calls the pandoc program (it is an external program that is not related to R) that can take the markdown file and converts to a variety of formats. For pandoc to generate PDF files, you will need a functional <a href="https://www.latex-project.org/get/">installation of LaTeX</a> that you will need to install separately.</p>
+<p>The <code>bookdown</code> package comes in to take care of numbering the figures and tables, as well as dealing with citations. As its name suggests, this package can be used to author books, but it is also well-suited to help generating reports.</p>
+<!-- ![Relations between the different R packages and tools used to generate reports from RMarkdown files](rmarkdown-pieces.png) -->
+<div id="the-yaml-header" class="section level3" number="3.3.1">
+<h3><span class="header-section-number">3.3.1</span> the YAML header</h3>
+<p>The YAML header is at the top of your file, it is delineated by three dashes (<code>---</code>) at the top and at the bottom of it. It is optional, but can be used to specify:</p>
+<ul>
+<li>the characteristics of your document: the title, authors, date of creation.</li>
+<li>the arguments to pass to pandoc to control the format of the output as
+well as additional information such as the bibliography file and the
+formatting of the list of references.</li>
+<li>parameters for your report: for instance, you can specify a parameter such that your report will only use a subset of your data so the final product will be generated quickly when you are developing the code for your project. Once your code is working, you can switch to the full dataset.</li>
+</ul>
+</div>
+<div id="code-chunks" class="section level3" number="3.3.2">
+<h3><span class="header-section-number">3.3.2</span> Code chunks</h3>
+<p>Code chunks are interspersed within the text of the report. They are delineated by three backticks (<code>$```$</code>) at the top and at the bottom of it. The top backticks are followed by a curly bracket that specify: (1) the language in which the code chunk is written, (2) the name of the chunk (optional but good practice), (3) <code>knitr</code> options that control whether and how the code, the output, or the figure are interpreted and displayed. Everything that comes after the name of the chunk has to be a valid R expression: the strings need be quoted, the arguments are separated by commas, and logical values (<code>TRUE</code>/<code>FALSE</code>) need to be capitalized.</p>
+</div>
+<div id="how-to-deal-with-figures" class="section level3" number="3.3.3">
+<h3><span class="header-section-number">3.3.3</span> How to deal with figures?</h3>
+<p>The <code>knitr</code> package provides many options to finely control how your figures are going to be generated. Some of <code>knitr</code>’s options can be set individually for each chunk or be set globally. For a reproducible report, it is common practice to have chunk at the beginning of the report that sets default options for the figures. It is also usually a good place to load all the packages you will need for your analysis. For instance the following chunk will do the following:</p>
+<ul>
+<li>all the figures generated by the report will be placed in the <code>figures/</code> sub-directory</li>
+<li>all the figures will be 6.5 x 4 inches and centered in the text.</li>
+</ul>
+<p>Additionally, this chunk will be named <code>figuresetup</code>, and we use the <code>echo=FALSE</code> option so the code for the chunk will not be displayed in the report, and use the <code>include=FALSE</code> option so no output produced by this chunk will be included in the report.</p>
+<p>For our figures, we can now do</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:sepalwidthlength"></span>
+<img src="figures/sepalwidthlength-1.png" alt="Relation between sepal width and length in three species of Iris." width="624" />
+<p class="caption">
+Figure 3.2: Relation between sepal width and length in three species of Iris.
+</p>
+</div>
+<p>When this file will be processed, it will create an image file (<code>figures/sepalwidthlength.png</code>) with the default dimension and the caption specified by the value of the <code>fig.cap</code> argument. You can use markdown formatting within the captions of your figures. This figure will have the label <code>fig:sepalwidthlength</code> that we will be able to use for cross referencing (see below).</p>
+<p>If you wish to incorporate a figure that is not generated by code (a photo of your field site or study organism), using the function <code>#knitr::include_graphics()</code> takes care of many details for you, and generates labels and captions as if it was generated by code.</p>
+<p><img src="figures/iris.png" width="624" style="display: block; margin: auto;" /></p>
+</div>
+<div id="how-to-deal-with-tables" class="section level3" number="3.3.4">
+<h3><span class="header-section-number">3.3.4</span> How to deal with tables?</h3>
+<p>To generate tables, <code>knitr</code> comes with the function <code>kable</code> that might be sufficient to make simple tables to represent data frames within your report. However, there are many packages that provide more sophisticated approaches to display and format tabular data within your reports. This <a href="https://hughjonesd.github.io/huxtable/design-principles.html">page</a> provides an overview of the capabilities of the different packages.</p>
+<!-- Similarly to figures, when this is processed by knitr, the table will have the `tab:iristable` label that can be used for cross-referencing. -->
+<!-- ### How to deal with cross-references? -->
+<!-- Use the `<a href="#label"><strong>??</strong></a>` syntax. For instance -->
+<!-- ``` -->
+<!-- On average _setosa_ has wider and shorter sepals than the other species -->
+<!-- (Fig. <a href="cross.html#fig:sepalwidthlength">3.2</a>, Table <a href="#tab:iristable"><strong>??</strong></a>). -->
+<!-- ``` -->
+</div>
+<div id="how-to-deal-with-citations" class="section level3" number="3.3.5">
+<h3><span class="header-section-number">3.3.5</span> How to deal with citations?</h3>
+<p>You need two things: a BibTeX file that contains all the citations you use in your manuscript and a CSL (Citation Style Language) file that specifies the format of your citation. Software citation managers such as Zotero or Mendeley provide options to generate BibTeX files for your citations. CSL files exist for most journals, and can be downloaded from: <a href="https://www.zotero.org/styles" class="uri">https://www.zotero.org/styles</a>. This is a convenient search interface provided by Zotero but you do not need to use Zotero to download or use these files.</p>
+</div>
+</div>
+<div id="where-can-i-find-more-information" class="section level2" number="3.4">
+<h2><span class="header-section-number">3.4</span> Where can I find more information?</h2>
+<ul>
+<li>The RStudio Markdown website: <a href="http://rmarkdown.rstudio.com/" class="uri">http://rmarkdown.rstudio.com/</a></li>
+<li>The bookdown website: <a href="https://bookdown.org/yihui/bookdown/" class="uri">https://bookdown.org/yihui/bookdown/</a></li>
+</ul>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="introduction.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="documenting-and-managing-dependencies.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/02-cross-refs.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["reproducibleGuide.pdf", "reproducibleGuide.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "<a href="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML.js" class="uri">https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML.js</a>";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

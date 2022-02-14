@@ -1,0 +1,18 @@
+---
+link-citations: yes
+mathjax: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML.js"
+---
+
+# Introduction {.tabset .tabpills}
+
+Modern challenges of reproducibility in research, particularly computational reproducibility [cite], have produced a lot of discussion in papers, blogs and videos, some of which are listed [here](https://github.com/davan690/reproducible-guidebook/blob/main/sections/references/index.md). 
+
+## BES guidelines
+
+In 2017 The britich ECological Society produced a set of reproduciblity guidelines [here](https://github.com/BES2016Workshop/guidebook).
+
+[pdf and notes coming....]
+
+<!-- # ```{r child = here::here("sections/introduction/index.md")} -->
+<!-- #  -->
+<!-- # ``` -->

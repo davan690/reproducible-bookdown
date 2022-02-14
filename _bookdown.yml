@@ -1,0 +1,13 @@
+book_filename: "reproducibleGuide"
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: " "
+output_dir: "./docs"
+# clean: ["my-book.bbl", "R-packages.bib"]
+# rmd_files: ["home.Rmd"]
+# delete_merged_file: true
+# before_chapter_script: ["script1.R", "script2.R"]
+# after_chapter_script: "script3.R"
+# view: https://github.com/rstudio/bookdown-demo/blob/master/%s
+# edit: https://github.com/rstudio/bookdown-demo/edit/master/%s
