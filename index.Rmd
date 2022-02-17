@@ -31,7 +31,7 @@ knitr::opts_chunk$set(comment=NA,echo=FALSE,message=FALSE,warning=FALSE,fig.path
 
 # Overview {#nice-label .tabset .tabpills}
 
-This guide is really a combination of reproducible resources for graduate research and beyond using RMarkdown through RStudio.
+This guide is a combination of resources for reproducible and open science tools for graduate research and beyond using RMarkdown and RStudio.
 
 ```{r child = "README.md"}
 
